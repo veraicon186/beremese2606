@@ -14,6 +14,7 @@ min-height:100vh;
 display:flex;
 justify-content:center;
 padding:20px;
+overflow-x:hidden;
 }
 
 .page{
@@ -24,6 +25,7 @@ background:white;
 
 /* HERO */
 .hero{
+min-height:100svh;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -46,7 +48,7 @@ line-height:1.6;
 font-family: "Montserrat", sans-serif;
 text-align: center;
 font-style: italic;
-padding: 0 30px;
+padding: 0 25px;
 }
 
 a {

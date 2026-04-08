@@ -1,0 +1,220 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family: "Montserrat", sans-serif;
+background:#f4efe9;
+color:#222;
+}
+
+.wrapper{
+min-height:100vh;
+display:flex;
+justify-content:center;
+padding:20px;
+}
+
+.page{
+max-width:750px;
+width:100%;
+background:white;
+}
+
+/* HERO */
+.hero{
+min-height:80svh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:40px 24px;
+text-align:center;
+box-sizing:border-box;
+position:relative;
+}
+
+.hero-inner{
+max-width:420px;
+width:100%;
+}
+
+.hero-text{
+margin-top:20px;
+}
+
+.hero h1{
+font-family: Lobster, serif;
+font-size:32px;
+margin-bottom:10px;
+}
+
+
+/* animace */
+
+.animation{
+cursor:pointer;
+}
+
+.replay{
+font-size:14px;
+opacity:0.6;
+margin-top:10px;
+}
+
+
+/* obsah stránky */
+
+.content{
+padding:40px 24px;
+}
+
+h2{
+font-family: "Montserrat", sans-serif;
+margin-top:40px;
+}
+
+p{
+line-height:1.6;
+font-family: "Montserrat", sans-serif;
+text-align: center;
+font-style: italic;
+}
+
+a {
+color: #222;
+}
+a:hover {
+color: #555;
+}
+
+.info p{
+margin:6px 0;
+}
+
+/* formulář */
+
+form{
+display:flex;
+flex-direction:column;
+gap:16px;
+margin-top:20px;
+}
+
+input, textarea{
+width:100%;
+padding:12px;
+font-size:16px;
+border:1px solid #ccc;
+box-sizing:border-box;
+}
+
+textarea{
+min-height:100px;
+}
+
+button{
+padding:14px;
+border:none;
+background:black;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+/* animace bereme se */
+
+
+.animation{
+position:relative;
+width:100%;
+max-width:420px;
+margin:auto;
+cursor:pointer;
+}
+
+.cards{
+position:relative;
+width:100%;
+aspect-ratio:1/1;
+}
+
+.card{
+position:absolute;
+inset:0;
+width:100%;
+height:100%;
+object-fit:contain;
+opacity:0;
+
+transition:opacity 1.2s;
+}
+
+.card.active{
+opacity:1;
+}
+
+/* ripple */
+
+.ripples{
+position:absolute;
+inset:0;
+pointer-events:none;
+}
+
+.ripple{
+position:absolute;
+
+top:50%;
+left:50%;
+
+transform:translate(-50%,-50%) scale(0);
+
+width:0;
+height:0;
+
+border-radius:50%;
+opacity:0;
+
+border:25px solid rgba(255,255,255,0.2);
+
+backdrop-filter:blur(8px);
+-webkit-backdrop-filter:blur(8px);
+
+box-shadow:
+inset 0 20px 30px rgba(255,255,255,0.7),
+inset 0 -20px 30px rgba(0,0,0,0.15),
+0 10px 20px rgba(0,0,0,0.2);
+}
+
+.ripple.animate{
+animation:rippleEffect 2.2s cubic-bezier(0.4,0,0.2,1) forwards;
+}
+
+@keyframes rippleEffect{
+
+0%{
+width:0;
+height:0;
+opacity:0;
+transform:translate(-50%,-50%) scale(0);
+border-width:15px;
+}
+
+30%{
+opacity:1;
+}
+
+100%{
+width:110%;
+height:110%;
+opacity:0;
+transform:translate(-50%,-50%) scale(1.2);
+border-width:5px;
+}
+
+}
+
+
+
+

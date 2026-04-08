@@ -164,22 +164,22 @@ switchCards();
 },600);
 
 
-/* scroll jen při prvním přehrání */
+// /* scroll jen při prvním přehrání */
 
-if(firstPlay){
+// if(firstPlay){
 
-setTimeout(() => {
+// setTimeout(() => {
 
-const content = document.querySelector(".content");
-smoothScroll(content,2000);
+// const content = document.querySelector(".content");
+// smoothScroll(content,2000);
 
-},2000);
+// },2000);
 
-firstPlay = false;
+// firstPlay = false;
 
-}
+// }
 
-}
+// }
 
 
 /* první přehrání */

@@ -35,7 +35,7 @@ position:relative;
 }
 
 .hero-inner{
-max-width:420px;
+max-width:500px;
 width:100%;
 }
 
@@ -79,6 +79,7 @@ line-height:1.6;
 font-family: "Montserrat", sans-serif;
 text-align: center;
 font-style: italic;
+padding: 0 40px;
 }
 
 a {
@@ -128,7 +129,7 @@ cursor:pointer;
 .animation{
 position:relative;
 width:100%;
-max-width:420px;
+max-width:500px;
 margin:auto;
 cursor:pointer;
 }

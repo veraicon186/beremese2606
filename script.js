@@ -89,7 +89,6 @@ const card2 = document.querySelector(".card2");
 const ripple = document.querySelector(".ripple");
 
 let state = 1;
-let firstPlay = true;
 
 
 /* ripple efekt */
@@ -118,40 +117,6 @@ state = 1;
 }
 
 
-/* pomalý scroll */
-
-function smoothScroll(target,duration){
-
-const start = window.scrollY;
-const end = target.offsetTop;
-const distance = end - start;
-let startTime = null;
-
-function animationScroll(currentTime){
-
-if(startTime === null) startTime = currentTime;
-
-const timeElapsed = currentTime - startTime;
-const progress = timeElapsed / duration;
-
-window.scrollTo(0, start + distance * ease(progress));
-
-if(timeElapsed < duration){
-requestAnimationFrame(animationScroll);
-}
-
-}
-
-function ease(t){
-return t<0.5
-? 2*t*t
-: 1-Math.pow(-2*t+2,2)/2;
-}
-
-requestAnimationFrame(animationScroll);
-
-}
-
 
 /* hlavní animace */
 
@@ -164,22 +129,8 @@ switchCards();
 },600);
 
 
-// /* scroll jen při prvním přehrání */
 
-// if(firstPlay){
-
-// setTimeout(() => {
-
-// const content = document.querySelector(".content");
-// smoothScroll(content,2000);
-
-// },2000);
-
-// firstPlay = false;
-
-// }
-
-// }
+}
 
 
 /* první přehrání */

@@ -12,11 +12,13 @@ content: `
 <p class="name">Petr Žampach</p>
 </div>
 
-<p>své životy manželským svazkem spojíme<br>
-<strong>26. června 2026 ve 12.30</strong><br>
-v kostele svatého Mikuláše na Staroměstském náměstí v Praze.
+<p>své životy manželským svazkem spojíme</p>
+<p class="date">26. června 2026 ve 12.30</p>
+<p>v&nbsp;kostele svatého Mikuláše na&nbsp;Staroměstském náměstí v&nbsp;Praze.
 </p>
 
+<p class="wish">Svatební blahopřání nás potěší na&nbsp;adrese<br>
+Polská 3, Praha 2 – Vinohrady.</p> 
 `
 },
 /*  <p>Milí přátelé,</p>
@@ -38,7 +40,7 @@ content: `
 <p>Milí,</p>
 
 <p>dovolujeme si oznámit, že náš svatební obřad proběhne<br>
-<strong>26. června 2026 ve 12.30</strong><br>
+26. června 2026 ve 12.30<br>
 v kostele sv. Mikuláše na Staroměstském náměstí v Praze.</p>
 
 <p>Budeme moc rádi, když tento slavnostní okamžik zažijete s námi.</p>
@@ -51,7 +53,7 @@ od 14.30.
 
 <p>Prosíme o potvrzení účasti na<br>
 <a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
-a o zaslání názvu <strong>písně, která by na oslavě neměla chybět.</strong></p>
+a o zaslání názvu písně, která by na oslavě neměla chybět.</p>
 
 <p>Vaši Dana a Petr</p>
 `
@@ -62,7 +64,7 @@ content: `
 <p>Milí,</p>
 
 <p>dovolujeme si oznámit, že náš svatební obřad proběhne<br>
-<strong>26. června 2026 ve 12.30</strong><br>
+26. června 2026 ve 12.30<br>
 v kostele sv. Mikuláše na Staroměstském náměstí v Praze.</p>
 
 <p>Zároveň Vás srdečně zveme na svatební veselí v restauraci<br>
@@ -71,7 +73,7 @@ od 18.30.</p>
 
 <p>Prosíme o potvrzení účasti na<br>
 <a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
-a o zaslání názvu <strong>písně, která by na oslavě neměla chybět.</strong></p>
+a o zaslání názvu písně, která by na oslavě neměla chybět.</p>
 
 <p>Vaši Dana a Petr</p>
 `
@@ -105,9 +107,9 @@ let state = 1;
 /* ripple efekt */
 
 function playRipple(){
-ripple.classList.remove("animate");
-void ripple.offsetWidth;
-ripple.classList.add("animate");
+    ripple.classList.remove("animate");
+    void ripple.offsetWidth;
+    ripple.classList.add("animate");
 }
 
 
@@ -115,38 +117,40 @@ ripple.classList.add("animate");
 
 function switchCards(){
 
-if(state === 1){
-card1.classList.remove("active");
-card2.classList.add("active");
-state = 2;
-}else{
-card2.classList.remove("active");
-card1.classList.add("active");
-state = 1;
-}
+    if(state === 1){
+        card1.classList.remove("active");
+        card2.classList.add("active");
+        state = 2;
+    }else{
+        card2.classList.remove("active");
+        card1.classList.add("active");
+        state = 1;
+    }
 
 }
-
 
 
 /* hlavní animace */
 
 function playAnimation(){
 
-playRipple();
+    playRipple();
 
-setTimeout(() => {
-switchCards();
-},600);
-
-
+    setTimeout(() => {
+        switchCards();
+    },600);
 
 }
 
 
-/* první přehrání */
+/* první spuštění */
 
 setTimeout(playAnimation,500);
+
+
+/* nekonečná smyčka */
+
+setInterval(playAnimation,3700);
 
 
 /* kliknutí */

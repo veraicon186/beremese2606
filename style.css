@@ -159,4 +159,18 @@ border-width:5px;
 
 
 
+.symbol{
+    width: 25px;
+    display: block;
+    margin: 5px auto;
+    padding: 0;
+}
 
+.name-container {
+   margin-bottom: 30px;
+}
+
+.name {
+    margin: 0;
+
+}

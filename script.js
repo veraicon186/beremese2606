@@ -6,10 +6,23 @@ const guestTypes = {
 
 ceremony: {
 content: `
-<p>Milí přátelé,</p>
+
+<div class="name-container"><p class="name">Dana Potočková</p> 
+<img src="symbol.svg" alt="spojení" class="symbol">
+<p class="name">Petr Žampach</p>
+</div>
+
+<p>své životy manželským svazkem spojíme<br>
+<strong>26. června 2026 ve 12.30</strong><br>
+v kostele svatého Mikuláše na Staroměstském náměstí v Praze.
+</p>
+
+`
+},
+/*  <p>Milí přátelé,</p>
 
 <p>dovolujeme si Vám oznámit, že náš svatební obřad proběhne<br>
-<strong>26. června 2026 ve 12.30 h</strong><br>
+<strong>26. června 2026 ve 12.30</strong><br>
 v kostele svatého Mikuláše na Staroměstském náměstí v Praze.
 </p>
 
@@ -18,16 +31,14 @@ v kostele svatého Mikuláše na Staroměstském náměstí v Praze.
 <p>Vaši Dana a Petr</p>
 
 <p>Svatební blahopřání nás potěší na adrese<br>
-Polská 3, Praha 2 – Vinohrady.</p>
-`
-},
+Polská 3, Praha 2 – Vinohrady.</p> */
 
 day: {
 content: `
 <p>Milí,</p>
 
 <p>dovolujeme si oznámit, že náš svatební obřad proběhne<br>
-<strong>26. června 2026 ve 12.30 h</strong><br>
+<strong>26. června 2026 ve 12.30</strong><br>
 v kostele sv. Mikuláše na Staroměstském náměstí v Praze.</p>
 
 <p>Budeme moc rádi, když tento slavnostní okamžik zažijete s námi.</p>
@@ -40,7 +51,7 @@ od 14.30.
 
 <p>Prosíme o potvrzení účasti na<br>
 <a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
-a zároveň o zaslání názvu <strong>písně, která by na oslavě neměla chybět.</strong></p>
+a o zaslání názvu <strong>písně, která by na oslavě neměla chybět.</strong></p>
 
 <p>Vaši Dana a Petr</p>
 `
@@ -51,7 +62,7 @@ content: `
 <p>Milí,</p>
 
 <p>dovolujeme si oznámit, že náš svatební obřad proběhne<br>
-<strong>26. června 2026 ve 12.30 h</strong><br>
+<strong>26. června 2026 ve 12.30</strong><br>
 v kostele sv. Mikuláše na Staroměstském náměstí v Praze.</p>
 
 <p>Zároveň Vás srdečně zveme na svatební veselí v restauraci<br>
@@ -60,7 +71,7 @@ od 18.30.</p>
 
 <p>Prosíme o potvrzení účasti na<br>
 <a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
-a zároveň o zaslání názvu <strong>písně, která by na oslavě neměla chybět.</strong></p>
+a o zaslání názvu <strong>písně, která by na oslavě neměla chybět.</strong></p>
 
 <p>Vaši Dana a Petr</p>
 `

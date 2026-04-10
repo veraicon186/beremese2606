@@ -14,8 +14,8 @@ content: `
  <p>Milí přátelé,</p>
 
 <p>dovolujeme si Vám oznámit, že náš svatební obřad proběhne</p>
-<p class="date">26. června 2026 ve 12.30</p>
-<p>v kostele <a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">svatého Mikuláše na&nbspStaroměstském náměstí</a> v&nbspPraze.</p>
+<p class="date">26. června 2026 ve&nbsp;12.30</p>
+<p><a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">v&nbsp;kostele svatého Mikuláše </a>na&nbsp;Staroměstském náměstí v&nbsp;Praze.</p>
 
 <p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbspnámi.</p>
 
@@ -23,7 +23,7 @@ content: `
 	<img src="symbol.svg" alt="Divider">
 </div>
 
-<p>Svatební blahopřání nás potěší na&nbspadrese Polská 3, Praha 2 – Vinohrady.</p> 
+<p>Svatební blahopřání nás potěší na&nbspadrese Polská&nbsp;3, Praha&nbsp;2&nbsp;–&nbsp;Vinohrady.</p> 
 
 
 
@@ -43,8 +43,8 @@ content: `
 <p>Milí,</p>
 
 <p>dovolujeme si oznámit, že náš svatební obřad proběhne</p>
-<p class="date">26. června 2026 ve 12.30</p>
-<p>v kostele <a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">svatého Mikuláše na&nbspStaroměstském náměstí</a> v&nbspPraze.</p>
+<p class="date">26. června 2026 ve&nbsp;12.30</p>
+<p><a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">v kostele svatého Mikuláše </a>na&nbspStaroměstském náměstí v&nbspPraze.</p>
 
 <p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbspnámi.</p>
 
@@ -52,20 +52,19 @@ content: `
 	<img src="symbol.svg" alt="Divider">
 </div>
 
-<p>Po skončení obřadu Vás srdečně zveme ke svatebnímu stolu v restauraci<br>
-<a href="https://maps.app.goo.gl/UBsyxJfkBDvV4y527" target="_blank">Bastion, Na Hradbách 2, Praha 2</a><br>
-od 14.30.
+<p>Po skončení obřadu Vás srdečně zveme ke&nbsp;svatebnímu stolu od&nbsp;14.30 v&nbsp;restauraci<br>
+<a href="https://maps.app.goo.gl/UBsyxJfkBDvV4y527" target="_blank">Bastion, Na&nbsp;Hradbách&nbsp;2, Praha&nbsp;2</a>.
 </p>
 
-<p>Prosíme o potvrzení účasti na <a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
-a o zaslání názvu písně, která by na oslavě neměla chybět.</p>
+<p>Prosíme o potvrzení účasti na&nbsp;<a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
+a zaslání názvu písně, která by na oslavě neměla chybět.</p>
 
 <div class="divider-line">
 	<img src="symbol.svg" alt="Divider">
 </div>
 
 
-<p>Svatební blahopřání nám můžete zaslat na adresu Polská 3, 120 00 Praha 2 - Vinohrady. Pokud byste nás chtěli obdarovat i jinak, potěší nás příspěvek na svatební cestu.</p>
+<p>Svatební blahopřání nám můžete zaslat na&nbsp;adresu Polská&nbsp;3, 120 00 Praha&nbsp;2&nbsp;–&nbsp;Vinohrady. Pokud byste nás chtěli obdarovat i&nbsp;jinak, potěší nás příspěvek na&nbsp;svatební cestu.</p>
 <img class="qr-code" src="evening.png" alt="QR kód">
 
 <div class="divider-line">
@@ -81,26 +80,25 @@ content: `
 <p>Milí,</p>
 
 <p>dovolujeme si oznámit, že náš svatební obřad proběhne</p>
-<p class="date">26. června 2026 ve 12.30</p>
-<p>v kostele <a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">svatého Mikuláše na&nbspStaroměstském náměstí</a> v&nbspPraze.</p>
-<p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbspnámi.</p>
+<p class="date">26. června 2026 ve&nbsp;12.30</p>
+<p><a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">v&nbsp;kostele svatého Mikuláše </a>na&nbsp;Staroměstském náměstí v&nbsp;Praze.</p>
+<p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbsp;námi.</p>
 
 <div class="divider-line">
 	<img src="symbol.svg" alt="Divider">
 </div>
 
-<p>Zároveň Vás srdečně zveme na svatební veselí v restauraci<br>
-<a href="https://maps.app.goo.gl/UBsyxJfkBDvV4y527" target="_blank">Bastion, Na Hradbách 2, Praha 2</a><br>
-od 18.30.</p>
+<p>Zároveň Vás srdečně zveme na svatební veselí od&nbsp;18.30 v&nbsp;restauraci<br>
+<a href="https://maps.app.goo.gl/UBsyxJfkBDvV4y527" target="_blank">Bastion, Na&nbsp;Hradbách&nbsp;2, Praha&nbsp;2</a>.</p>
 
-<p>Prosíme o potvrzení účasti na <a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
-a o zaslání názvu písně, která by na oslavě neměla chybět.</p>
+<p>Prosíme o potvrzení účasti na&nbsp;<a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
+a zaslání názvu písně, která by na oslavě neměla chybět.</p>
 
 <div class="divider-line">
 	<img src="symbol.svg" alt="Divider">
 </div>
 
-<p>Svatební blahopřání nám můžete zaslat na adresu Polská 3, 120 00 Praha 2 - Vinohrady. Pokud byste nás chtěli obdarovat i jinak, potěší nás příspěvek na svatební cestu.</p>
+<p>Svatební blahopřání nám můžete zaslat na&nbsp;adresu Polská&nbsp;3, 120 00 Praha&nbsp;2&nbsp;–&nbsp;Vinohrady. Pokud byste nás chtěli obdarovat i&nbsp;jinak, potěší nás příspěvek na&nbsp;svatební cestu.</p>
 <img class="qr-code" src="evening.png" alt="QR kód">
 
 <div class="divider-line">

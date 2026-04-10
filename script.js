@@ -53,7 +53,7 @@ content: `
 </div>
 
 <p>Po skončení obřadu Vás srdečně</p> 
-<p class="date">zveme ke&nbsp;svatebnímu stolu</p>
+<p class="invitation">zveme ke&nbsp;svatebnímu stolu</p>
 <p>od&nbsp;14.30 v&nbsp;restauraci 
 <a href="https://maps.app.goo.gl/UBsyxJfkBDvV4y527" target="_blank">Bastion, Na&nbsp;Hradbách&nbsp;2, Praha&nbsp;2</a>.
 </p>
@@ -92,7 +92,7 @@ content: `
 
 <p>Zároveň Vás srdečně  
 
-<p class="date">zveme na svatební veselí</p>
+<p class="invitation">zveme na svatební veselí</p>
 <p> od&nbsp;18.30 v&nbsp;restauraci<br>
 <a href="https://maps.app.goo.gl/UBsyxJfkBDvV4y527" target="_blank">Bastion, Na&nbsp;Hradbách&nbsp;2, Praha&nbsp;2</a>.</p>
 

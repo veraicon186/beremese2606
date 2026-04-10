@@ -54,7 +54,13 @@ padding: 0 25px;
 
 a {
 color: #222;
+text-decoration-line: underline;
+text-decoration-thickness: 0.5px;
+text-underline-offset: 1.5px;
+
+
 }
+
 a:hover {
 color: #555;
 }

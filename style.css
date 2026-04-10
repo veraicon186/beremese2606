@@ -93,6 +93,8 @@ opacity:0;
 transition:opacity 1.2s;
 }
 
+
+
 .card.active{
 opacity:1;
 }
@@ -131,7 +133,7 @@ inset 0 -20px 30px rgba(0,0,0,0.15),
 }
 
 .ripple.animate{
-animation:rippleEffect 2.2s cubic-bezier(0.4,0,0.2,1) forwards;
+animation:rippleEffect 2.5s cubic-bezier(0.4,0,0.2,1) forwards;
 }
 
 @keyframes rippleEffect{
@@ -161,7 +163,7 @@ border-width:5px;
 
 
 .symbol{
-    width: 25px;
+    width: 35px;
     display: block;
     margin: 5px auto;
     padding: 0;
@@ -172,10 +174,69 @@ border-width:5px;
 }
 
 .name {
-    margin: 0;
+    margin: 0 auto;
+    font-size: 20px;
+}
 
+.date {
+margin: 15px auto;
+font-size: 20px;
 }
 
 .wish {
 margin-top: 60px;
+font-size: 0.9em;
+max-width: 400px;
+}
+
+.scroll-arrow {
+  display: block;
+  margin: 5px auto;
+
+  width: 25px;
+  animation: arrowMove 1.8s ease-in-out infinite;
+}
+
+.scroll-arrow img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@keyframes arrowMove {
+  0% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+}
+
+
+.divider-line {
+  margin: 30px auto;
+  width: 25px;
+  text-align: center;
+}
+
+.divider-line img {
+  width: 100%;
+  height: auto;
+}
+
+.qr-code {
+  display: block;
+  margin: 0 auto 50px auto;
+  width: 100px;
+  height: auto;
+}
+.qr-code img {
+  width: 100%;
+  height: auto;
 }

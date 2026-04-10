@@ -7,53 +7,70 @@ const guestTypes = {
 ceremony: {
 content: `
 
-<div class="name-container"><p class="name">Dana Potočková</p> 
-<img src="symbol.svg" alt="spojení" class="symbol">
-<p class="name">Petr Žampach</p>
+
+
+
+
+ <p>Milí přátelé,</p>
+
+<p>dovolujeme si Vám oznámit, že náš svatební obřad proběhne</p>
+<p class="date">26. června 2026 ve 12.30</p>
+<p>v kostele <a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">svatého Mikuláše na&nbspStaroměstském náměstí</a> v&nbspPraze.</p>
+
+<p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbspnámi.</p>
+
+<div class="divider-line">
+	<img src="symbol.svg" alt="Divider">
 </div>
 
-<p>své životy manželským svazkem spojíme</p>
-<p class="date">26. června 2026 ve 12.30</p>
-<p>v&nbsp;kostele svatého Mikuláše na&nbsp;Staroměstském náměstí v&nbsp;Praze.
-</p>
+<p>Svatební blahopřání nás potěší na&nbspadrese Polská 3, Praha 2 – Vinohrady.</p> 
 
-<p class="wish">Svatební blahopřání nás potěší na&nbsp;adrese<br>
-Polská 3, Praha 2 – Vinohrady.</p> 
-`
-},
-/*  <p>Milí přátelé,</p>
 
-<p>dovolujeme si Vám oznámit, že náš svatební obřad proběhne<br>
-<strong>26. června 2026 ve 12.30</strong><br>
-v kostele svatého Mikuláše na Staroměstském náměstí v Praze.
-</p>
 
-<p>Budeme moc rádi, když tento slavnostní okamžik zažijete s námi.</p>
+<div class="divider-line">
+	<img src="symbol.svg" alt="Divider">
+</div>
 
 <p>Vaši Dana a Petr</p>
 
-<p>Svatební blahopřání nás potěší na adrese<br>
-Polská 3, Praha 2 – Vinohrady.</p> */
+
+
+`
+},
 
 day: {
 content: `
 <p>Milí,</p>
 
-<p>dovolujeme si oznámit, že náš svatební obřad proběhne<br>
-26. června 2026 ve 12.30<br>
-v kostele sv. Mikuláše na Staroměstském náměstí v Praze.</p>
+<p>dovolujeme si oznámit, že náš svatební obřad proběhne</p>
+<p class="date">26. června 2026 ve 12.30</p>
+<p>v kostele <a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">svatého Mikuláše na&nbspStaroměstském náměstí</a> v&nbspPraze.</p>
 
-<p>Budeme moc rádi, když tento slavnostní okamžik zažijete s námi.</p>
+<p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbspnámi.</p>
 
+<div class="divider-line">
+	<img src="symbol.svg" alt="Divider">
+</div>
 
 <p>Po skončení obřadu Vás srdečně zveme ke svatebnímu stolu v restauraci<br>
-<a href="https://www.google.com/maps/place/Bastion+Prague+Restaurant/@50.0676699,14.4237698,17z/data=!4m10!1m2!2m1!1sBastion,+Na+Hradbách+2,+Praha+2+!3m6!1s0x470b94618f32b977:0xa4d5cc7d807ec82b!8m2!3d50.0678563!4d14.4269151!15sCiBCYXN0aW9uLCBOYSBIcmFkYsOhY2ggMiwgUHJhaGEgMlogIh5iYXN0aW9uIG5hIGhyYWRiw6FjaCAyIHByYWhhIDKSAQpyZXN0YXVyYW50mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0Vk1sa3lXbXBsUjBweFdtMTRNMUpGT1VOWFJHZ3paVzVHZEUweVl4QULgAQD6AQQIABAs!16s%2Fg%2F1hc4mlwst?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Bastion, Na Hradbách 2, Praha 2</a><br>
+<a href="https://maps.app.goo.gl/UBsyxJfkBDvV4y527" target="_blank">Bastion, Na Hradbách 2, Praha 2</a><br>
 od 14.30.
 </p>
 
-<p>Prosíme o potvrzení účasti na<br>
-<a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
+<p>Prosíme o potvrzení účasti na <a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
 a o zaslání názvu písně, která by na oslavě neměla chybět.</p>
+
+<div class="divider-line">
+	<img src="symbol.svg" alt="Divider">
+</div>
+
+
+<p>Svatební blahopřání nám můžete zaslat na adresu Polská 3, 120 00 Praha 2 - Vinohrady. Pokud byste nás chtěli obdarovat i jinak, potěší nás příspěvek na svatební cestu.</p>
+<img class="qr-code" src="evening.png" alt="QR kód">
+
+<div class="divider-line">
+	<img src="symbol.svg" alt="Divider">
+</div>
 
 <p>Vaši Dana a Petr</p>
 `
@@ -63,17 +80,32 @@ evening: {
 content: `
 <p>Milí,</p>
 
-<p>dovolujeme si oznámit, že náš svatební obřad proběhne<br>
-26. června 2026 ve 12.30<br>
-v kostele sv. Mikuláše na Staroměstském náměstí v Praze.</p>
+<p>dovolujeme si oznámit, že náš svatební obřad proběhne</p>
+<p class="date">26. června 2026 ve 12.30</p>
+<p>v kostele <a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">svatého Mikuláše na&nbspStaroměstském náměstí</a> v&nbspPraze.</p>
+<p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbspnámi.</p>
+
+<div class="divider-line">
+	<img src="symbol.svg" alt="Divider">
+</div>
 
 <p>Zároveň Vás srdečně zveme na svatební veselí v restauraci<br>
-<a href="https://www.google.com/maps/place/Bastion+Prague+Restaurant/@50.0676699,14.4237698,17z/data=!4m10!1m2!2m1!1sBastion,+Na+Hradbách+2,+Praha+2+!3m6!1s0x470b94618f32b977:0xa4d5cc7d807ec82b!8m2!3d50.0678563!4d14.4269151!15sCiBCYXN0aW9uLCBOYSBIcmFkYsOhY2ggMiwgUHJhaGEgMlogIh5iYXN0aW9uIG5hIGhyYWRiw6FjaCAyIHByYWhhIDKSAQpyZXN0YXVyYW50mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0Vk1sa3lXbXBsUjBweFdtMTRNMUpGT1VOWFJHZ3paVzVHZEUweVl4QULgAQD6AQQIABAs!16s%2Fg%2F1hc4mlwst?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Bastion, Na Hradbách 2, Praha 2</a><br>
+<a href="https://maps.app.goo.gl/UBsyxJfkBDvV4y527" target="_blank">Bastion, Na Hradbách 2, Praha 2</a><br>
 od 18.30.</p>
 
-<p>Prosíme o potvrzení účasti na<br>
-<a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
+<p>Prosíme o potvrzení účasti na <a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
 a o zaslání názvu písně, která by na oslavě neměla chybět.</p>
+
+<div class="divider-line">
+	<img src="symbol.svg" alt="Divider">
+</div>
+
+<p>Svatební blahopřání nám můžete zaslat na adresu Polská 3, 120 00 Praha 2 - Vinohrady. Pokud byste nás chtěli obdarovat i jinak, potěší nás příspěvek na svatební cestu.</p>
+<img class="qr-code" src="evening.png" alt="QR kód">
+
+<div class="divider-line">
+	<img src="symbol.svg" alt="Divider">
+</div>
 
 <p>Vaši Dana a Petr</p>
 `
@@ -138,7 +170,7 @@ function playAnimation(){
 
     setTimeout(() => {
         switchCards();
-    },600);
+    },800);
 
 }
 

@@ -40,9 +40,9 @@ content: `
 
 day: {
 content: `
-<p>Milí,</p>
+<p>Milí nejbližší,</p>
 
-<p>dovolujeme si oznámit, že náš svatební obřad proběhne</p>
+<p>dovolujeme si Vám oznámit, že náš svatební obřad proběhne</p>
 <p class="date">26. června 2026 ve&nbsp;12.30</p>
 <p><a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">v kostele svatého Mikuláše </a>na&nbspStaroměstském náměstí v&nbspPraze.</p>
 
@@ -67,8 +67,8 @@ a zaslání názvu písně, která by na oslavě neměla chybět.</p>
 </div>
 
 
-<p>Svatební blahopřání nám můžete zaslat na&nbsp;adresu Polská&nbsp;3, 120 00 Praha&nbsp;2&nbsp;–&nbsp;Vinohrady. Pokud byste nás chtěli obdarovat i&nbsp;jinak, potěší nás příspěvek na&nbsp;svatební cestu.</p>
-<img class="qr-code" src="evening.png" alt="QR kód">
+<p>Svatební blahopřání nám můžete zaslat na&nbsp;adresu Polská&nbsp;3, 120 00 Praha&nbsp;2&nbsp;–&nbsp;Vinohrady. Pokud nás chcete obdarovat i&nbsp;jinak, potěší nás příspěvek na&nbsp;svatební cestu.</p>
+<img class="qr-code" src="QR_kod_banka.jpeg" alt="QR kód">
 
 <div class="divider-line">
 	<img src="symbol.svg" alt="Divider">
@@ -80,9 +80,9 @@ a zaslání názvu písně, která by na oslavě neměla chybět.</p>
 
 evening: {
 content: `
-<p>Milí,</p>
+<p>Milí přátelé,</p>
 
-<p>dovolujeme si oznámit, že náš svatební obřad proběhne</p>
+<p>dovolujeme si Vám oznámit, že náš svatební obřad proběhne</p>
 <p class="date">26. června 2026 ve&nbsp;12.30</p>
 <p><a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">v&nbsp;kostele svatého Mikuláše </a>na&nbsp;Staroměstském náměstí v&nbsp;Praze.</p>
 <p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbsp;námi.</p>
@@ -104,8 +104,8 @@ a zaslání názvu písně, která by na oslavě neměla chybět.</p>
 	<img src="symbol.svg" alt="Divider">
 </div>
 
-<p>Svatební blahopřání nám můžete zaslat na&nbsp;adresu Polská&nbsp;3, 120 00 Praha&nbsp;2&nbsp;–&nbsp;Vinohrady. Pokud byste nás chtěli obdarovat i&nbsp;jinak, potěší nás příspěvek na&nbsp;svatební cestu.</p>
-<img class="qr-code" src="evening.png" alt="QR kód">
+<p>Svatební blahopřání nám můžete zaslat na&nbsp;adresu Polská&nbsp;3, 120 00 Praha&nbsp;2&nbsp;–&nbsp;Vinohrady. Pokud nás chcete obdarovat i&nbsp;jinak, potěší nás příspěvek na&nbsp;svatební cestu.</p>
+<img class="qr-code" src="QR_kod_banka.jpeg" alt="QR kód">
 
 <div class="divider-line">
 	<img src="symbol.svg" alt="Divider">

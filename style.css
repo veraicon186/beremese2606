@@ -50,6 +50,8 @@ text-align: center;
 font-style: italic;
 font-weight: 300;
 padding: 0 25px;
+max-width: 350px;
+margin: 15px auto;
 }
 
 a {
@@ -238,7 +240,7 @@ max-width: 400px;
 
 .qr-code {
   display: block;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 30px auto;
   width: 100px;
   height: auto;
 }

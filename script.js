@@ -14,7 +14,7 @@ content: `
  <p>Milí přátelé,</p>
 
 <p>dovolujeme si Vám oznámit, že náš svatební obřad proběhne</p>
-<p class="date">26. června 2026 ve&nbsp;12.30</p>
+<p>26. června 2026 ve&nbsp;12.30</p>
 <p><a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">v&nbsp;kostele svatého Mikuláše </a>na&nbsp;Staroměstském náměstí v&nbsp;Praze.</p>
 
 <p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbspnámi.</p>
@@ -43,7 +43,7 @@ content: `
 <p>Milí nejbližší,</p>
 
 <p>dovolujeme si Vám oznámit, že náš svatební obřad proběhne</p>
-<p class="date">26. června 2026 ve&nbsp;12.30</p>
+<p>26. června 2026 ve&nbsp;12.30</p>
 <p><a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">v kostele svatého Mikuláše </a>na&nbspStaroměstském náměstí v&nbspPraze.</p>
 
 <p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbspnámi.</p>
@@ -83,7 +83,7 @@ content: `
 <p>Milí přátelé,</p>
 
 <p>dovolujeme si Vám oznámit, že náš svatební obřad proběhne</p>
-<p class="date">26. června 2026 ve&nbsp;12.30</p>
+<p>26. června 2026 ve&nbsp;12.30</p>
 <p><a href="https://maps.app.goo.gl/4GN3yqso6upbCweV8" target="_blank">v&nbsp;kostele svatého Mikuláše </a>na&nbsp;Staroměstském náměstí v&nbsp;Praze.</p>
 <p>Budeme moc rádi, když tento slavnostní okamžik zažijete s&nbsp;námi.</p>
 

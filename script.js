@@ -52,9 +52,7 @@ content: `
 	<img src="symbol.svg" alt="Divider">
 </div>
 
-<p>Po skončení obřadu Vás srdečně</p> 
-<p class="invitation">zveme<br>
-ke&nbsp;svatebnímu stolu</p>
+<p>Po skončení obřadu Vás srdečně zveme ke&nbsp;svatebnímu&nbsp;stolu</p>
 <p>od&nbsp;14.30 v&nbsp;restauraci 
 <a href="https://maps.app.goo.gl/UBsyxJfkBDvV4y527" target="_blank">Bastion, Na&nbsp;Hradbách&nbsp;2, Praha&nbsp;2</a>.
 </p>
@@ -91,10 +89,8 @@ content: `
 	<img src="symbol.svg" alt="Divider">
 </div>
 
-<p>Zároveň Vás srdečně  
-
-<p class="invitation">zveme<br>na svatební veselí</p>
-<p> od&nbsp;18.30 v&nbsp;restauraci<br>
+<p>Zároveň Vás srdečně zveme na&nbsp;svatební&nbsp;veselí</p>
+<p>od&nbsp;18.30 v&nbsp;restauraci<br>
 <a href="https://maps.app.goo.gl/UBsyxJfkBDvV4y527" target="_blank">Bastion, Na&nbsp;Hradbách&nbsp;2, Praha&nbsp;2</a>.</p>
 
 <p>Prosíme o potvrzení účasti na&nbsp;<a href="mailto:beremese2606@gmail.com">beremese2606@gmail.com</a><br>
